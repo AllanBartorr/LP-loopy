@@ -1,0 +1,21 @@
+#img-footer{
+width: 100%;
+z-index: 1;
+}
+
+#footer_items{
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8% 100px 8%;
+}
+
+#footer{
+ background-color:rgba(84, 106, 135, 0.73) ;
+}
+
+#copyright{
+    color: #ffffff;
+    font-weight: 500;
+}

@@ -1,0 +1,64 @@
+#planos{
+    min-height: 100vh;
+}
+#planos .section-title{
+    text-align: center;
+    font-weight: 700; 
+    padding: 10px;
+    color: blueviolet;
+}
+#planos .section-subtitle{
+     text-align: center;
+     font-weight: 500; 
+     padding: 7px;
+}
+#planos .section-subtitle span{
+    color: blueviolet;
+    font: bold;
+}
+#grid-planos{
+    display: grid;
+    gap: 18px;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 30px;
+    justify-items: center;
+}
+#grid-plano-individual{
+    height: 400px;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(17, 86, 136, 0.178);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 2px rgba(83, 18, 189, 0.381);
+    transition: background-color .3s ease;
+}
+#grid-planos-individual h4{
+    text-align: center;
+    align-items: center;
+}
+#grid-planos h4{
+    color: rgb(255, 255, 255);
+    background-color: rgba(66, 10, 177, 0.724);
+    width: 50%;
+    border-radius: 00% 00% 60% 00%;
+    height: 10%;
+}
+#grid-plano-individual:hover{
+    box-shadow: 0px 0px 12px 8px rgba(96, 39, 190, 0.381);
+    scale: calc();
+}
+#grid-planos p{
+    margin-top: 20px;
+}
+@media screen and (max-width: 450px){
+    #grid-planos{
+        flex-wrap: nowrap;
+        justify-content: center;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
